@@ -2226,6 +2226,54 @@
 #define PREHEAT_2_TEMP_CHAMBER 35
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
+#define PREHEAT_3_LABEL       "PETG"
+#define PREHEAT_3_TEMP_HOTEND 230
+#define PREHEAT_3_TEMP_BED     80
+#define PREHEAT_3_TEMP_CHAMBER 35
+#define PREHEAT_3_FAN_SPEED    128  // Mid-level fan for PETG
+
+#define PREHEAT_4_LABEL       "TPU"
+#define PREHEAT_4_TEMP_HOTEND 220
+#define PREHEAT_4_TEMP_BED     60
+#define PREHEAT_4_TEMP_CHAMBER 35
+#define PREHEAT_4_FAN_SPEED    50   // Lower fan speed for TPU
+
+#define PREHEAT_5_LABEL       "NYLON"
+#define PREHEAT_5_TEMP_HOTEND 250  // Nylon prints at high temperatures
+#define PREHEAT_5_TEMP_BED    90   // Nylon needs a heated bed for good adhesion
+#define PREHEAT_5_TEMP_CHAMBER 40  // Optional chamber temp if using an enclosure
+#define PREHEAT_5_FAN_SPEED    0   // No fan or very low speed for Nylon
+
+#define PREHEAT_6_LABEL       "ASA"
+#define PREHEAT_6_TEMP_HOTEND 250  // ASA prints at high temperatures like ABS
+#define PREHEAT_6_TEMP_BED    90   // Heated bed around 80-110°C
+#define PREHEAT_6_TEMP_CHAMBER 40  // Optional chamber temperature
+#define PREHEAT_6_FAN_SPEED    0   // Fan off for better adhesion and layer bonding
+
+#define PREHEAT_7_LABEL       "CARBON"
+#define PREHEAT_7_TEMP_HOTEND 240  // Carbon fiber usually requires higher hotend temperatures
+#define PREHEAT_7_TEMP_BED     60  // Bed temp is typically around 60-70°C
+#define PREHEAT_7_TEMP_CHAMBER 35  // Optional chamber temperature
+#define PREHEAT_7_FAN_SPEED   128  // Moderate fan speed, not too high
+
+#define PREHEAT_8_LABEL       "FLEX"
+#define PREHEAT_8_TEMP_HOTEND 230  // Flex prints at high temperatures like TPU/TPE
+#define PREHEAT_8_TEMP_BED     60  // Heated bed typically at 50-60°C
+#define PREHEAT_8_TEMP_CHAMBER 40  // Optional chamber temperature
+#define PREHEAT_8_FAN_SPEED    50  // Slight fan (20-50%) can help with layer adhesion
+
+#define PREHEAT_9_LABEL       "PP"
+#define PREHEAT_9_TEMP_HOTEND 230  // PP prints at 220-250°C
+#define PREHEAT_9_TEMP_BED    100  // Heated bed typically around 80-100°C
+#define PREHEAT_9_TEMP_CHAMBER 40  // Optional chamber temperature
+#define PREHEAT_9_FAN_SPEED    20   // PP prefers little or no fan
+
+#define PREHEAT_10_LABEL       "TPE"
+#define PREHEAT_10_TEMP_HOTEND 230  // TPE prints at 220-240°C
+#define PREHEAT_10_TEMP_BED     60  // Bed temperature typically 40-60°C
+#define PREHEAT_10_TEMP_CHAMBER 40  // Optional chamber temperature
+#define PREHEAT_10_FAN_SPEED    50  // Moderate fan speed, usually around 20-50%
+
 // @section motion
 
 /**
